@@ -12,4 +12,4 @@ May the Sushi be with you.
 https://github.com/espresso3389/sushi-vscode
 
 ## Marketplace URL
-https://marketplace.visualstudio.com/items?itemName=sushi.vcterminal
+https://marketplace.visualstudio.com/items?itemName=espresso3389.sushi-vscode
