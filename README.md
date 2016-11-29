@@ -15,7 +15,7 @@ Just type `sushi` on your command palette.
 It's just a **privilege** of VSCode Insiders (1.8.0 or above).
 If you are not a VSCode Insider, please join the dog fooding program!
 
-### It's just waste of power/memory/CPU storage space
+### It's just waste of power/memory/CPU/storage space
 
 Who cares? 😑
 
