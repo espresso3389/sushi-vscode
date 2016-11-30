@@ -44,7 +44,9 @@ export class Sushier extends vscode.Disposable
             // scroll; so weird logic to stabilize the pixel size of the string
             let sushiBelt = this.sushiBelt.slice(1) + this.sushiBelt.slice(0, 2);
             this.sushiBelt = sushiBelt.slice(0, -1);
-            this.statusBarItem.text = '[' + sushiBelt.replace(/12/g, glyphs[0]).replace(/34/g, glyphs[1]).replace(/[1234]/g, ' ') + ']';
+            // If you don't understand what the code does, comment out the next single line:
+            sushiBelt = sushiBelt.replace(/12/g, glyphs[0]).replace(/34/g, glyphs[1]).replace(/[1234]/g, ' ');
+            this.statusBarItem.text = '[' + sushiBelt + ']';
             this.statusBarItem.show();
             this.statusBarItem.command = command;
             this.statusBarItem.tooltip = tooltip;
